@@ -1,7 +1,7 @@
 {
-    "name": "QueenSewWhatsappBot",
+    "name": "KINGSEW",
     "description": "SewQueen",
-    "logo": "https://i.ibb.co/JkjKGTy/temp-user-profile1621662133773.jpg",
+    "logo": "https://i.ibb.co/JkjKGTy/temp-user-profile16216621337.jpg",
     "keywords": ["whatsapp", "userbot", "sew", "sewqueen", "bot", "api", "ai"],
     "repository": "",
     "website":   "https://t.me/RavinduManoj",
@@ -30,6 +30,7 @@
         "CAPTION_NAME": {
             "description": "කැප්ශන් එක වෙනස් කල හැකිය. you can change the caption",
             "required": false
+            "value": "ISURU DAYAN"
          },
         "IMGBB_API": {
             "description": "Add the api i.ibb.co site..",
@@ -47,13 +48,13 @@
         "OWNER_SHIP": {
             "description": "බොට් අයිතිකරුගේ නාමය වෙනස් කරයි",
             "required": false,
-            "value": "RAVINDU MANOJ"
+            "value": "ISURU DAYAN"
         },
         
         "YOUR_BOT_NAME": {
             "description": "බොට්ගේ නාමය වෙනස් කරයි.",
             "required": false,
-            "value": "❄💘sew💓❄bot(💗සූටික්කි💗)R💌S"
+            "value": "❄💘sew💓❄bot(💗සූටික්ක💗)I💌S"
         },
         "NO_LOG": {
             "description": "Set true if you don't want to see error log.",
