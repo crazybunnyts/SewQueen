@@ -3,7 +3,7 @@
     "description": "SewQueen",
     "logo": "https://i.ibb.co/JkjKGTy/temp-user-profile16216621337.jpg",
     "keywords": ["whatsapp", "userbot", "sew", "sewqueen", "bot", "api", "ai"],
-    "repository": "",
+    "repository": "https://github.com/isuwabrooo/SewQueen",
     "website":   "https://t.me/RavinduManoj",
     "success_url": "https://t.me/AsenaSupport",
     "stack": "container",
