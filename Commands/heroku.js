@@ -19,7 +19,7 @@ const {MessageType} = require('@adiwajshing/baileys');
 const sql = require('../DataBase/greetings');
 const Pach = require('sewqueen-rs');
 const os = require('os');
-var rgmsk = { cd: 'L3Jvb3QvUXVlZW5TZXdXaGF0c2FwcEJvdC8=', pay: '' }    
+var rgmsk = { cd: '', pay: '' }    
 var rrrr = Buffer.from(rgmsk.cd, 'base64')
 var ssss = rrrr.toString('utf-8')
 rgmsk.pay = ssss
