@@ -4,7 +4,6 @@
 
 # SEW QUEEN
 
-
 # 2021 - August - 31
 
 *♕❄SEW QUEEN 2.0.0 - Full Control - Dual Bot Mode❄♔*
@@ -108,7 +107,6 @@
 && සමහර දෝෂ නිරාකරණය කර ඇත
 
 
-fixed all bugs 2021 september 04
 
 
 
