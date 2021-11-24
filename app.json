@@ -1,16 +1,20 @@
 {
-    "name": "kingbot",
-    "description": "KINGBOT",
-    "logo": "https://i.ibb.co/JkjKGTy/temp-user-profile16216621337.jpg",
-    "keywords": ["whatsapp", "userbot", "sew", "sewqueen", "bot", "api", "ai"],
+    "name": "KING-ISUWA-BOT",
+    "description": "WhatsAsena project - Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
+    "logo": "https://i.hizliresim.com/6Bbj7i.jpg",
+    "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
     "repository": "https://github.com/isuwabrooo/SewQueen",
-    "website":   "https://t.me/isuwabrooo",
+    "website":   "https://t.me/phaticusthiccy",
     "success_url": "https://t.me/AsenaSupport",
     "stack": "container",
     "env": {
-        "_SEW_QUEEN_SESSION": {
-            "description": "Type here yours SEW_QUEEN Session.QR කෝඩය ස්කෑන් කර ලබා ගන්නා කේතය ඇතුලත් කරන්න",
+        "ASENA_SESSION": {
+            "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Asena Session.",
             "required": true
+        },
+        "SUDO": {
+            "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 94xxxxxxxx (USA number +94)",
+            "required": false
         },
         "LANGUAGE": {
             "description": "Bot language.English => en, භාශාව තේරීම සදහා",
@@ -22,20 +26,55 @@
             "required": true,
             "value": "false"
         },
+        "INBO_BLOCK": {
+            "description": "Inbox Blocking System. ඉන්බොක්ස් මැසේජ් දමන්නන් බ්ලොක් කරයි",
+            "required": true,
+            "value": "false"
+        },
+        "AUTO_BİO": {
+            "description": "Set true for auto date, time in biography.",
+            "required": true,
+            "value": "false"
+        },
         "HANDLERS": {
             "description": "For commands.",
             "required": true,
             "value": "^[.!;]"
         },
+        "BAD_KICK": {
+            "description": "It's true, kick the member who using bad word.අසභ්‍ය වචන පාවිච්චි කරන පුද්ගලයන් ගෲපයෙන් ඉවත් කරයි ",
+            "required": true,
+            "value": "true"
+        },
+        "SPAM_KICK": {
+            "description": "It's true, kick the member who using spam.ස්පෑම් දමන පුද්ගලයන් ගෲපයෙන් ඉවත් කරයි ",
+            "required": true,
+            "value": "true"
+        },
+        "VOICE_REPLY": {
+            "description": "If you likes bgm you can write 'true'. Otherwise false.ගැහැනුලමයෙකුගේ කටහඩින් auto voice රිප්ලයි යැවීම සදහා",
+            "required": false,
+            "value": "true"
+        },
         "CAPTION_NAME": {
             "description": "කැප්ශන් එක වෙනස් කල හැකිය. you can change the caption",
             "required": false
-            "value": "ISURU DAYAN"
          },
-        "IMGBB_API": {
-            "description": "Add the api i.ibb.co site..",
-            "required": false
-         },
+         "Y__GREETING_TYPE": {
+            "description": "welcome/goodbye මැසේජ් සදහා අවශය ආකාරය තෝරන්න.. ප්‍රොෆයිල් පික් එක සමග නම් pp ද ගිෆ් එකක් සමග නම් gif ලෙසද පින්තූරයක් සදහා img ලෙසද යොදන්න.",
+            "required": false,
+            "value": "pp"
+        },
+       "Y_WELLCOME": {
+            "description": "ඉහත තේරීම gif හෝ img නම් වෙල්කම් මැසේජ් එක සදහා gif හෝ img එකක direct link එකක් යොදන්න",
+            "required": false,
+            "value": "https://bit.ly/3yG3zk6"
+        },
+        "Y_GOODBYE": {
+            "description": "ඉහත තේරීම gif හෝ img නම් ගුඩ්බායි මැසේජ් එක සදහා gif හෝ img එකක direct link එකක් යොදන්න",
+            "required": false,
+            "value": "https://bit.ly/3lXyPHM"
+        },
         "SYSTEM_IMAGE": {
             "description": "කිලෝබයිට් 500ට අඩු පින්තූරයක ඩිරෙක්ට් ලින්ක් එකක් යොදන්න.add derect link for image",
             "required": false,
@@ -45,16 +84,26 @@
             "description": "බොට්ව සෑදීම සදහා පාස්වර්ඩ් එකක් අවශ්‍ය අතර වීඩියෝව නරඹා එය ලබා ගන්න.password required.. watch the video",
             "required": true
          },
+         "AUTO_STICKER": {
+            "description": "If you likes bgm you can write 'true'. Otherwise false. auto ස්ටිකර්ස් රිප්ලයි යැවීම සදහා",
+            "required": false,
+            "value": "true"
+        },
         "OWNER_SHIP": {
             "description": "බොට් අයිතිකරුගේ නාමය වෙනස් කරයි",
             "required": false,
-            "value": "ISURU DAYAN"
+            "value": "ᴋɪɴɢ ɪꜱᴜᴡᴀ"
         },
         
         "YOUR_BOT_NAME": {
             "description": "බොට්ගේ නාමය වෙනස් කරයි.",
             "required": false,
-            "value": "❄💘sew💓❄bot(💗සූටික්ක💗)I💌S"
+            "value": "❄💘₭ł₦₲ ł₴Ʉ₩₳💓❄bot(💗සූටික්ක💗)I⃠💌K⃠"
+        },
+        "FULL_SEW": {
+            "description": "Turn your account into a chatbot!",
+            "required": true,
+            "value": "false"
         },
         "NO_LOG": {
             "description": "Set true if you don't want to see error log.",
@@ -75,10 +124,20 @@
             "description": "Heroku API Key.",
             "required": true
         },
+        "PROXY": {
+            "description": " Proxy Address => http://some-host:1234",
+            "required": false,
+            "value": "false"
+        },
         "MUTE_MESSAGE": {
             "description": "Customizable Mute Message! Use => default, to change back.",
             "required": false,
             "value": "default"
+        },
+        "BLOCK_CHAT": {
+            "description": "Choose in which chat the bot won't work there. Ex: 94xxxxxxx && 94xxxxxx or 905xxxx,905xxx...",
+            "required": false,
+            "value": "false"
         },
         "UNMUTE_MESSAGE": {
             "description": "Customizable Unmute Message! Use => default, to change back.",
@@ -116,7 +175,7 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "🎲 Hello Im Alive 😌"
+            "value": "default"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
@@ -152,15 +211,6 @@
             "description": "Type image link for Gan Style plugin.",
             "required": true,
             "value": "https://i.hizliresim.com/loUtAb.jpg"
-        },
-        "GROUP_MANAGE": {
-            "description": "Type true if you need allow admin to use admin command",
-            "required": false,
-            "value": "false"
-        },
-        "CLONE_MSG": {
-            "description": "This MSG will display after the clone end",
-            "required": false
         },
         "NO_ONLINE": {
             "description": "Type true if you don't want to appear online.",
